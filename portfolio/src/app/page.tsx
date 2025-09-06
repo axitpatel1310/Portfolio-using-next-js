@@ -66,6 +66,8 @@ const certificates = [
   '1 × Business Model Representation Certificate'
 ]
 
+import { LinkedinIcon, InstagramIcon, PhoneIcon } from "lucide-react";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 text-gray-900 antialiased">
@@ -84,6 +86,17 @@ export default function Home() {
           <a href="#about" className="hover:underline">About</a>
           <a href="mailto:axitpatel1705@gmail.com" className="px-3 py-2 bg-emerald-600 text-white rounded-md">Contact</a>
         </nav>
+        <div className="flex items-center gap-4 mt-2">
+          <a href="https://wa.me/919924678435" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-emerald-600">
+            <PhoneIcon size={20} />
+          </a>
+          <a href="https://www.linkedin.com/in/axit-pankajbhai-patel-0a842b239" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-emerald-600">
+            <LinkedinIcon size={20} />
+          </a>
+          <a href="https://www.instagram.com/_itsakky1310_" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-emerald-600">
+            <InstagramIcon size={20} />
+          </a>
+        </div>
       </header>
 
       <section className="bg-white shadow-sm">
