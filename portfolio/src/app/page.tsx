@@ -147,7 +147,7 @@ export default function Home() {
               <h4 className="text-sm font-semibold text-gray-500">Metrics</h4>
               <ul className="mt-2 text-sm text-gray-700 space-y-1">
                 <li>97 YouTube tutorials created (see CV)</li>
-                <li>Udemy course: "Python for Beginners"</li>
+                <li>Udemy course: &quot;Python for Beginners&quot;</li>
                 <li>30+ GitHub projects — active open-source contributor</li>
               </ul>
             </div>
@@ -261,7 +261,7 @@ export default function Home() {
 
           <div>
             <h3 className="font-bold text-lg">Quick contact</h3>
-            <p className="text-sm mt-2">Prefer a quick chat? Send an email or use the "Discuss" buttons on project cards to start a conversation.</p>
+            <p className="text-sm mt-2">Prefer a quick chat? Send an email or use the &quot;Discuss&quot; buttons on project cards to start a conversation.</p>
           </div>
         </div>
         <div className="text-center text-xs bg-gray-800 py-3">© {new Date().getFullYear()} Axit Patel — Built with Next.js & Tailwind</div>
