@@ -33,7 +33,7 @@ const education = {
 
 const research = {
   title: 'Personalized Fitness Coaching System using Computer Vision (Research Paper)',
-  link: 'https://www.academia.edu/143796997/Personalized_Fitness_Coaching_System_using_Computer_Vision_Research_Paper_'
+  link: 'https://www.academia.edu/143796997/Personalized_Fitness_Coaching_System_using_Computer_Vision_Research_Paper_?source=swp_share'
 }
 
 const languages = [
