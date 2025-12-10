@@ -28,7 +28,7 @@ export default function ResearchCard() {
             <h4 className="text-sm font-semibold text-gray-500">Metrics</h4>
             <ul className="mt-2 text-sm text-gray-700 space-y-1">
               <li>97 YouTube tutorials created (see CV)</li>
-              <li>Udemy course: "Python for Beginners"</li>
+              <li>Udemy course: Python for Beginners</li>
               <li>30+ GitHub projects — active open-source contributor</li>
             </ul>
           </Magnet>
