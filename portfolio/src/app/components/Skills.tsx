@@ -30,7 +30,7 @@ export default function Skills() {
       <h3 className="text-xl font-semibold mt-8 mb-4">Tools</h3>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm">
         {tools.map((tool) => (
-          <div key={tool} className="p-3 bg-white border rounded-lg shadow-sm text-base font-semibold">{tool}</div>
+          <div className="p-3 bg-white border rounded-lg shadow-sm text-base font-semibold">{tool}</div>
         ))}
       </div>
     </section>
