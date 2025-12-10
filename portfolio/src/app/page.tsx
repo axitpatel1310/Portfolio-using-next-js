@@ -18,7 +18,7 @@ const FallingText = dynamic(() => import('@/components/FallingText'), {
   ssr: false,
   loading: () => (
     <p className="text-gray-800">
-      I'm a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you'd like to collaborate or hire me, let's talk.
+      I&apos;m a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you&apos;d like to collaborate or hire me, let&apos;s talk.
     </p>
   ),
 });
