@@ -22,6 +22,7 @@ export default function Hero() {
               threshold={0.1}
               rootMargin="-100px"
               textAlign="left"
+              onLetterAnimationComplete={() => {}}  // Add this line
             />
           <p className="text-gray-700 mb-6">I design and ship production-ready web applications, teach programming through videos/courses, and publish research on applying computer vision to fitness coaching.</p>
           <div className="flex flex-wrap gap-3">           
