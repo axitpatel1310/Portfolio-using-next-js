@@ -25,7 +25,7 @@ export default function HomePage() {
       <section id="about" className="max-w-6xl mx-auto px-5 py-8">
         <h2 className="text-2xl font-bold mb-4">About</h2>
 
-        {/* @ts-ignore – FallingText has a wrong type for highlightWords (never[]) */}
+        {/* @ts-expect-error FallingText wrongly types highlightWords as never[] */}
         <FallingText
           text={`I'm a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you'd like to collaborate or hire me, let's talk.`}
           highlightWords={["results-driven", "problem", "software", "teaching", "open-source", "collaborate"]}
