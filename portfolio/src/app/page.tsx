@@ -11,6 +11,7 @@ import Footer from "@/app/components/Footer";
 import SplashCursor from '@/components/SplashCursor'
 import FallingText from '@/components/FallingText';
 
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gray text-gray-900 antialiased">
@@ -27,7 +28,6 @@ export default function HomePage() {
 
         <FallingText
           text={`I'm a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you'd like to collaborate or hire me, let's talk.`}
-          highlightWords={["results-driven", "problem", "software", "teaching", "open-source", "collaborate"]}
           highlightClass="highlighted"
           trigger="hover"
           backgroundColor="transparent"
