@@ -25,7 +25,7 @@ export default function Footer() {
 
         <div>
           <h3 className="font-bold text-lg">Quick contact</h3>
-          <p className="text-sm mt-2">Prefer a quick chat? Send an email or use the "Discuss" buttons on project cards to start a conversation.</p>
+          <p className="text-sm mt-2">Prefer a quick chat? Send an email or use the Discuss buttons on project cards to start a conversation.</p>
         </div>
       </div>
       <div className="text-center text-xs bg-gray-800 py-3">© {new Date().getFullYear()} Axit Patel — Built with Next.js & Tailwind</div>
