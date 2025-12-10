@@ -9,8 +9,19 @@ import Certificates from "@/app/components/Certificates";
 import Footer from "@/app/components/Footer";
 import dynamic from "next/dynamic";
 
-const SplashCursor = dynamic(() => import('@/components/SplashCursor'), { ssr: false });
-const FallingText = dynamic(() => import('@/components/FallingText'), { ssr: false });
+const SplashCursor = dynamic(() => import('@/components/SplashCursor'), {
+  ssr: false,
+  loading: () => null,
+});
+
+const FallingText = dynamic(() => import('@/components/FallingText'), {
+  ssr: false,
+  loading: () => (
+    <p className="text-gray-800">
+      I'm a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you'd like to collaborate or hire me, let's talk.
+    </p>
+  ),
+});
 
 export default function HomePage() {
   return (
