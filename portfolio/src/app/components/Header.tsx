@@ -71,6 +71,9 @@ export default function Header() {
               animationEase="back.out(1.5)"
               animationDuration={0.5}
               staggerDelay={0.12}
+              onMenuClick={() => {}}  // Add this: handler for clicks (or implement actual navigation logic)
+              className=""            // Add this: e.g., a Tailwind class like "hidden md:block" if needed for desktop
+              style={{}}              // Add this: empty object is fine, or add inline styles if needed
             />
           {/* Social Icons */}
         <div className="flex items-center gap-4">
