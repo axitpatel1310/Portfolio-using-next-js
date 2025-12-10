@@ -38,7 +38,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold mb-4">About</h2>
 
         <FallingText
-          text={`I'm a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you'd like to collaborate or hire me, let's talk.`}
+          text="I'm a results-driven problem solver focused on building meaningful software products. I enjoy teaching and open-source. If you'd like to collaborate or hire me, let's talk."
           highlightClass="highlighted"
           trigger="hover"
           backgroundColor="transparent"
