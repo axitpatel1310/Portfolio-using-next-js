@@ -27,22 +27,23 @@ export default function Hero() {
           <p className="text-gray-700 mb-6">I design and ship production-ready web applications, teach programming through videos/courses, and publish research on applying computer vision to fitness coaching.</p>
           <div className="flex flex-wrap gap-3">           
           <AnimatedContent
-              distance={150}
-              direction="horizontal"
-              reverse={false}
-              duration={1.2}
-              ease="bounce.out"
-              initialOpacity={0.2}
-              animateOpacity
-              scale={1.1}
-              threshold={0.2}
-              delay={0.3}
-            >
+            distance={150}
+            direction="horizontal"
+            reverse={false}
+            duration={1.2}
+            ease="bounce.out"
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+            delay={0.3}
+            onComplete={() => {}}  // Add this line
+          >
             <a href={`mailto:${contact.emailAlt}`} style={{ margin: "0 5px" }} className="px-4 py-2 border border-gray-200 rounded-md hover:shadow">Email</a>
             <a href={contact.github} style={{ margin: "0 5px" }} target="_blank" rel="noreferrer" className="px-4 py-2 border border-gray-200 rounded-md hover:shadow">GitHub</a>
             <a href={research.link} style={{ margin: "0 5px" }} target="_blank" rel="noreferrer" className="px-4 py-2 border border-gray-200 rounded-md hover:shadow">Research Paper</a>
             <a href={contact.resume} style={{ margin: "0 5px" }} className="px-4 py-2 border border-gray-200 rounded-md hover:shadow">Resume (PDF)</a>
-            </AnimatedContent>
+          </AnimatedContent>
           </div>
         </div>
 
